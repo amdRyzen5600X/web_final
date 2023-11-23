@@ -37,6 +37,10 @@ body {
     background-color: var(--light-grey-color);
 }
 
+.img-news{
+    width: 50%;
+}
+
 img {
     width: 100%;
 }
