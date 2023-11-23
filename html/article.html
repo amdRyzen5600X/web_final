@@ -119,13 +119,13 @@
                         </p>
                     </article>
 
-                    <article>
+
+                    <form onsubmit="return validateEmail()" name="form" >
                         <h4>EMAIL NEWSLETTER</h4>
                         <p>Write your Email here.</p>
-                        <input type="email" placeholder="Enter Email..." />
-                        <a href="#"> Subscribe</a>
-                    </article>
-
+                        <input name="email" type="email" placeholder="Enter Email..." />
+                        <input type="submit" class="btn btn-success" value="Subscribe">
+                    </form>
                     <article>
                         <h4>SITE LINKS</h4>
                         <p>Help & Support</p>
